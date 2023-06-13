@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9068, #ff6495, #9854f9, #4f9df9, #73cc68, #ffcc00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 20px 20px 5px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.996);
+    margin: 10px;
+    animation: slide-up 0.5s ease-out;
+    border: 2px solid black;
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff9068, #ff6495);
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #ff6495, #ff9068);
+  }
+  
+  .signup-link,
+  .login-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-link span,
+  .login-link span {
+    color: #888;
+  }
+  
+  .signup-link a,
+  .login-link a {
+    color: #ff6495;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+
+
+
+
+
+/* 2nd css */
+
+
+/*  
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9068, #ff6495, #9854f9, #4f9df9, #73cc68, #ffcc00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    animation: slide-up 0.5s ease-out;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #ff9068, #ff6495, #9854f9, #4f9df9, #73cc68, #ffcc00);
+    animation: borderAnimation 10s ease infinite;
+  }
+  
+  @keyframes borderAnimation {
+    0% {
+      border-image-slice: 1;
+    }
+    50% {
+      border-image-slice: 40;
+    }
+    100% {
+      border-image-slice: 1;
+    }
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff9068, #ff6495);
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #ff6495, #ff9068);
+  }
+  
+  .signup-link,
+  .login-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-link span,
+  .login-link span {
+    color: #888;
+  }
+  
+  .signup-link a,
+  .login-link a {
+    color: #ff6495;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+
+*/
+
+
+
+
+
+/* third css */
+
+
+/*
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9068, #ff6495, #9854f9, #4f9df9, #73cc68, #ffcc00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    animation: slide-up 0.5s ease-out;
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff9068, #ff6495);
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #ff6495, #ff9068);
+  }
+  
+  .signup-link,
+  .login-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-link span,
+  .login-link span {
+    color: #888;
+  }
+  
+  .signup-link a,
+  .login-link a {
+    color: #ff6495;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  
+  */
+
